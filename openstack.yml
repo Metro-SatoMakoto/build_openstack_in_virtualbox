@@ -1,5 +1,5 @@
 ---
-- hosts: plain-centos7
+- hosts: openstack
   sudo: yes
   roles:
     - yum-systemupdate
